@@ -1,0 +1,64 @@
+body {
+    font-family: Monaco;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.choice {
+    font-family: Monaco;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 120px;
+    color: blue;
+    font-size: 20px;
+}
+
+#computerChoice {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    color: blue;
+    font-size: 20px;
+}
+
+.results {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    color: blue;
+    font-size: 20px;
+}
+
+.scoresContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#playerScore {
+    color: black;
+    background-color: transparent; 
+    margin-left: 15px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+#computerScore {
+    color: black;
+    background-color: transparent; 
+    margin-left: 120px;
+    margin-right: 15px;
+    font-size: 20px;
+}
